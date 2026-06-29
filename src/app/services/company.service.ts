@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable()
 export class CompanyService {
   private readonly BACKEND_URL =
-    'https://my-json-server.typicode.com/ssuperczynski/ngx-easy-table/company?';
+    'https://my-json-server.typicode.com/vincent-cholet/ngx-easy-table-plus/company?';
 
   constructor(private http: HttpClient) {}
 

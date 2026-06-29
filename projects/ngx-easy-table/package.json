@@ -1,9 +1,9 @@
 {
-  "name": "ngx-easy-table",
+  "name": "ngx-easy-table-plus",
   "version": "15.7.0",
   "description": "Angular easy table",
   "typings": "index.ts",
-  "repository": "https://github.com/ssuperczynski/ngx-easy-table.git",
+  "repository": "https://github.com/vincent-cholet/ngx-easy-table-plus.git",
   "license": "MIT",
   "peerDependencies": {
     "@angular/cdk": ">=16.0.0",
@@ -16,9 +16,9 @@
     "tslib": "^2.0.0"
   },
   "bugs": {
-    "url": "https://github.com/ssuperczynski/ngx-easy-table/issues"
+    "url": "https://github.com/vincent-cholet/ngx-easy-table-plus/issues"
   },
-  "homepage": "https://github.com/ssuperczynski/ngx-easy-table",
+  "homepage": "https://github.com/vincent-cholet/ngx-easy-table-plus",
   "main": "main.js",
   "keywords": [
     "angular",

@@ -5,7 +5,7 @@ import {
   OnDestroy,
   OnInit,
 } from '@angular/core';
-import { Columns, Config, DefaultConfig } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
 import { takeUntil } from 'rxjs/operators';
 import { Company, CompanyService } from '../../services/company.service';
 import { Subject } from 'rxjs';
@@ -26,7 +26,10 @@ export class InfiniteScrollServerTemplateComponent implements OnInit, OnDestroy 
   private offset = 1;
   public selected: number | null = null;
 
-  constructor(private cdr: ChangeDetectorRef, private readonly companyService: CompanyService) {}
+  constructor(
+    private cdr: ChangeDetectorRef,
+    private readonly companyService: CompanyService
+  ) {}
 
   ngOnDestroy(): void {
     this.ngUnsubscribe.next();

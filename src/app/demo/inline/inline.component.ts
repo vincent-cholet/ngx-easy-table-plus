@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { Columns, Config, DefaultConfig, Event as ngxEvent } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig, Event as ngxEvent } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-inline',

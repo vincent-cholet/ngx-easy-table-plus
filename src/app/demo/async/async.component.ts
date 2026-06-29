@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { CompanyService } from '../../services/company.service';
-import { Columns, Config, DefaultConfig } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
 import { Observable } from 'rxjs';
 
 @Component({

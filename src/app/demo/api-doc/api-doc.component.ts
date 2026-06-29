@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ApiDocComponent {
-  public readonly apiDefinitionCode = `import { API, APIDefinition } from 'ngx-easy-table';
+  public readonly apiDefinitionCode = `import { API, APIDefinition } from 'ngx-easy-table-plus';
 
 @ViewChild('table') table: APIDefinition;
 `;

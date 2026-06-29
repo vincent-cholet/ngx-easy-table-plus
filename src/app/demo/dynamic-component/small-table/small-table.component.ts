@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Columns, Config, DefaultConfig } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
 import { Company, data } from '../../../../assets/data';
 
 @Component({

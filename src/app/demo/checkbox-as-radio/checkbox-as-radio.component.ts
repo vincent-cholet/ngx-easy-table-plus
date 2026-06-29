@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit, ViewChild } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { API, APIDefinition, Columns, Config, DefaultConfig } from 'ngx-easy-table';
+import { API, APIDefinition, Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-checkbox-as-radio',

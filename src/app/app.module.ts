@@ -74,7 +74,7 @@ import {
   LandingComponent,
   StickyComponent,
 } from './demo';
-import { TableModule } from 'ngx-easy-table';
+import { TableModule } from 'ngx-easy-table-plus';
 import { MenuSearchPipe } from './pipes/menu-search-pipe';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatPaginatorModule } from '@angular/material/paginator';

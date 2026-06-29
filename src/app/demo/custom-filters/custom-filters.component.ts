@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { Columns, Config, DefaultConfig } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-custom-filters',
@@ -32,7 +32,7 @@ export class CustomFiltersComponent implements OnInit {
   }
 
   onAgeSearch(event: Event): void {
-    const value = ((event.target as HTMLInputElement).value as unknown) as number;
+    const value = (event.target as HTMLInputElement).value as unknown as number;
     this.rows = this.data.filter((_) => _.age > value);
   }
 

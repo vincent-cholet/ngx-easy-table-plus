@@ -14,7 +14,7 @@ npm install @angular/cdk --save
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { TableModule } from 'ngx-easy-table';
+import { TableModule } from 'ngx-easy-table-plus';
 
 @NgModule({
   declarations: [
@@ -36,7 +36,7 @@ export class AppModule {
 </ngx-table>
 `;
   public readonly appComponentTsCode = `import { Component } from '@angular/core';
-import { Columns, Config, DefaultConfig } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'my-app',

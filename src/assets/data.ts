@@ -1,4 +1,4 @@
-import { Columns } from 'ngx-easy-table';
+import { Columns } from 'ngx-easy-table-plus';
 
 /* eslint-disable max-lines, id-blacklist */
 export interface Company {

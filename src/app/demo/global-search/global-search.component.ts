@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit, ViewChild } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { Columns, API, APIDefinition, DefaultConfig, Config } from 'ngx-easy-table';
+import { Columns, API, APIDefinition, DefaultConfig, Config } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-global-search',

@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { APIDefinition, Config, Columns, DefaultConfig } from 'ngx-easy-table';
+import { APIDefinition, Config, Columns, DefaultConfig } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-filter-template',

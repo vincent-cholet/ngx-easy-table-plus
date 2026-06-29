@@ -7,32 +7,32 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DocComponent {
-  public readonly columnDefinitionCode = `import { Columns } from 'ngx-easy-table';
+  public readonly columnDefinitionCode = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'phone', title: 'Phone' },
 ];
 `;
-  public readonly columnDefinitionCode2 = `import { Columns } from 'ngx-easy-table';
+  public readonly columnDefinitionCode2 = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'address.street.number', title: 'Phone' },
 ];
 `;
-  public readonly columnPlaceholderCode = `import { Columns } from 'ngx-easy-table';
+  public readonly columnPlaceholderCode = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'phone', title: 'Phone', placeholder: 'Search phone' },
 ];
 `;
-  public readonly columnWidthCode = `import { Columns } from 'ngx-easy-table';
+  public readonly columnWidthCode = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'phone', title: 'Phone', width: '10%' },
 ];
 `;
   public readonly columnCellTemplateCode = `
-import { Columns } from 'ngx-easy-table';
+import { Columns } from 'ngx-easy-table-plus';
 
 @ViewChild('actionTpl', { static: true }) actionTpl: TemplateRef<any>;
 
@@ -40,19 +40,19 @@ public columns: Columns[] = [
     { key: 'phone', title: 'Phone', cellTemplate: this.actionTpl },
 ];
 `;
-  public readonly columnOrderCode = `import { Columns } from 'ngx-easy-table';
+  public readonly columnOrderCode = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'phone', title: 'Phone', orderEnabled: false },
 ];
 `;
-  public readonly columnSearchCode = `import { Columns } from 'ngx-easy-table';
+  public readonly columnSearchCode = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'phone', title: 'Phone', searchEnabled: false },
 ];
 `;
-  public readonly columnOrderByCode = `import { Columns } from 'ngx-easy-table';
+  public readonly columnOrderByCode = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'phone', title: 'Phone', orderBy: 'phone' },
@@ -62,19 +62,19 @@ public columns: Columns[] = [
   font-family: 'Montserrat', sans-serif;
 }
 `;
-  public readonly columnOrderEventCode = `import { Columns } from 'ngx-easy-table';
+  public readonly columnOrderEventCode = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'phone', title: 'Phone', orderEventOnly: true },
 ];
 `;
-  public readonly pinnedCode = `import { Columns } from 'ngx-easy-table';
+  public readonly pinnedCode = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'phone', title: 'Phone', pinned: true },
 ];
 `;
-  public readonly cssClassCode = `import { Columns } from 'ngx-easy-table';
+  public readonly cssClassCode = `import { Columns } from 'ngx-easy-table-plus';
 
 public columns: Columns[] = [
     { key: 'company', title: 'Company', cssClass: { includeHeader: false, name: 'blue' } },

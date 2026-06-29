@@ -7,7 +7,7 @@ import {
   ViewChild,
 } from '@angular/core';
 import { CompanyService } from '../../services/company.service';
-import { APIDefinition, Columns, Config, DefaultConfig } from 'ngx-easy-table';
+import { APIDefinition, Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
 import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 

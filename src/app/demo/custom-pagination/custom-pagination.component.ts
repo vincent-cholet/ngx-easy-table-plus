@@ -8,7 +8,14 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { Columns, API, DefaultConfig, Config, APIDefinition, Pagination } from 'ngx-easy-table';
+import {
+  Columns,
+  API,
+  DefaultConfig,
+  Config,
+  APIDefinition,
+  Pagination,
+} from 'ngx-easy-table-plus';
 import { PageEvent } from '@angular/material/paginator';
 
 @Component({

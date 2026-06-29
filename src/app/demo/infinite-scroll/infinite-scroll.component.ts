@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { Columns, Config, DefaultConfig, Event } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig, Event } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-infinite-scroll',

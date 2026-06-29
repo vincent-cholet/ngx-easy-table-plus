@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { Columns, DefaultConfig } from 'ngx-easy-table';
+import { Columns, DefaultConfig } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-radio',

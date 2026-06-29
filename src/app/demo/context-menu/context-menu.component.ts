@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import { Company, data } from '../../../assets/data';
 import { CompanyService } from '../../services/company.service';
-import { API, APIDefinition, Config, DefaultConfig } from 'ngx-easy-table';
-import { Columns } from 'ngx-easy-table';
+import { API, APIDefinition, Config, DefaultConfig } from 'ngx-easy-table-plus';
+import { Columns } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-context-menu',

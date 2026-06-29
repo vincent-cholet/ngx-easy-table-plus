@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 import { interval, Subject } from 'rxjs';
 import { map, takeUntil } from 'rxjs/operators';
-import { Columns, Config, DefaultConfig } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
 
 interface Data {
   status: string;

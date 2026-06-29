@@ -6,7 +6,7 @@ import {
   OnInit,
 } from '@angular/core';
 import { CompanyService } from '../../services/company.service';
-import { Columns, Config, DefaultConfig } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 

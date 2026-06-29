@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { data } from '../../../assets/data';
-import { DefaultConfig } from 'ngx-easy-table';
+import { DefaultConfig } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-sticky',

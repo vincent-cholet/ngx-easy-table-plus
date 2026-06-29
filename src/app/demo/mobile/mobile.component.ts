@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, HostListener, OnInit, ViewChild } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { Columns, Config, DefaultConfig } from 'ngx-easy-table';
-import { API, APIDefinition } from 'ngx-easy-table';
+import { Columns, Config, DefaultConfig } from 'ngx-easy-table-plus';
+import { API, APIDefinition } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-mobile',

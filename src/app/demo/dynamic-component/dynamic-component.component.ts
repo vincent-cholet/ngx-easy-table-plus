@@ -6,7 +6,7 @@ import {
   ViewContainerRef,
 } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { Columns, APIDefinition, DefaultConfig, Config } from 'ngx-easy-table';
+import { Columns, APIDefinition, DefaultConfig, Config } from 'ngx-easy-table-plus';
 import { SmallTableComponent } from './small-table/small-table.component';
 
 @Component({

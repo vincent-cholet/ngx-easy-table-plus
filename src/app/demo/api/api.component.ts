@@ -6,7 +6,7 @@ import {
   ViewChild,
 } from '@angular/core';
 import { Company, data } from '../../../assets/data';
-import { API, Columns, APIDefinition, DefaultConfig, Config } from 'ngx-easy-table';
+import { API, Columns, APIDefinition, DefaultConfig, Config } from 'ngx-easy-table-plus';
 
 @Component({
   selector: 'app-api',

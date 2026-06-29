@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ngx-easy-table demo",
   "typings": "index.ts",
-  "repository": "https://github.com/ssuperczynski/ngx-easy-table.git",
+  "repository": "https://github.com/vincent-cholet/ngx-easy-table-plus.git",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -29,7 +29,7 @@
     "@angular/animations": "^18.2.0",
     "@angular/forms": "^18.2.0",
     "@angular/material": "^18.2.0",
-    "ngx-easy-table": "^15.7.0",
+    "ngx-easy-table-plus": "^15.7.0",
     "ngx-highlightjs": "^12.0.0"
   },
   "devDependencies": {
@@ -75,9 +75,9 @@
     "zone.js": "~0.14.10"
   },
   "bugs": {
-    "url": "https://github.com/ssuperczynski/ngx-easy-table/issues"
+    "url": "https://github.com/vincent-cholet/ngx-easy-table-plus/issues"
   },
-  "homepage": "https://github.com/ssuperczynski/ngx-easy-table",
+  "homepage": "https://github.com/vincent-cholet/ngx-easy-table-plus",
   "main": "main.js",
   "keywords": [
     "angular",

@@ -21,7 +21,7 @@
     "watch:table": "ng build ngx-easy-table --watch",
     "publish:lib": "npm run build:lib && cd dist/ngx-easy-table && npm publish",
     "publish:lib:next": "npm run build:lib && cd dist/ngx-easy-table && npm publish --tag next",
-    "build:lib": "ng build ngx-easy-table && sass projects/ngx-easy-table/assets/style.scss dist/ngx-easy-table/style.css && cp projects/ngx-easy-table/assets/style.scss dist/ngx-easy-table/style.scss",
+    "build:lib": "ng build ngx-easy-table && sass projects/ngx-easy-table/assets/style.scss dist/ngx-easy-table/style.css && node -e \"require('fs').copyFileSync('projects/ngx-easy-table/assets/style.scss','dist/ngx-easy-table/style.scss')\"",
     "prepare": "husky install"
   },
   "license": "MIT",

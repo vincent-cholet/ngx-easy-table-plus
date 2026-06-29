@@ -3,7 +3,7 @@ context('Server sort', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
-      'https://my-json-server.typicode.com/ssuperczynski/ngx-easy-table/company?',
+      'https://my-json-server.typicode.com/vincent-cholet/ngx-easy-table-plus/company?',
       {
         statusCode: 200,
         body: [
@@ -36,7 +36,7 @@ context('Server sort', () => {
     ).as('fullList');
     cy.intercept(
       'GET',
-      'https://my-json-server.typicode.com/ssuperczynski/ngx-easy-table/company?_limit=10&_page=0&_sort=company&_order=desc',
+      'https://my-json-server.typicode.com/vincent-cholet/ngx-easy-table-plus/company?_limit=10&_page=0&_sort=company&_order=desc',
       {
         statusCode: 200,
         body: [
@@ -57,7 +57,7 @@ context('Server sort', () => {
     ).as('sortDesc');
     cy.intercept(
       'GET',
-      'https://my-json-server.typicode.com/ssuperczynski/ngx-easy-table/company?_limit=10&_page=0&_sort=company&_order=asc',
+      'https://my-json-server.typicode.com/vincent-cholet/ngx-easy-table-plus/company?_limit=10&_page=0&_sort=company&_order=asc',
       {
         statusCode: 200,
         body: [

@@ -5,7 +5,7 @@ context('Infinite scroll server', () => {
     it('loads next items', () => {
       cy.intercept(
         'GET',
-        'https://my-json-server.typicode.com/ssuperczynski/ngx-easy-table/company?_limit=10&_page=1',
+        'https://my-json-server.typicode.com/vincent-cholet/ngx-easy-table-plus/company?_limit=10&_page=1',
         {
           statusCode: 200,
           body: [

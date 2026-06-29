@@ -5,7 +5,7 @@ context('Server pagination', () => {
     it('gets correct phone', () => {
       cy.intercept(
         'GET',
-        'https://my-json-server.typicode.com/ssuperczynski/ngx-easy-table/company?',
+        'https://my-json-server.typicode.com/vincent-cholet/ngx-easy-table-plus/company?',
         {
           statusCode: 200,
           body: [
@@ -352,7 +352,7 @@ context('Server pagination', () => {
       ).as('fullList');
       cy.intercept(
         'GET',
-        'https://my-json-server.typicode.com/ssuperczynski/ngx-easy-table/company?_limit=10&_page=2',
+        'https://my-json-server.typicode.com/vincent-cholet/ngx-easy-table-plus/company?_limit=10&_page=2',
         {
           statusCode: 200,
           body: [
@@ -373,7 +373,7 @@ context('Server pagination', () => {
       ).as('secondPage');
       cy.intercept(
         'GET',
-        'https://my-json-server.typicode.com/ssuperczynski/ngx-easy-table/company?_limit=10&_page=3',
+        'https://my-json-server.typicode.com/vincent-cholet/ngx-easy-table-plus/company?_limit=10&_page=3',
         {
           statusCode: 200,
           body: [
@@ -394,7 +394,7 @@ context('Server pagination', () => {
       ).as('thirdPage');
       cy.intercept(
         'GET',
-        'https://my-json-server.typicode.com/ssuperczynski/ngx-easy-table/company?_limit=25&_page=1',
+        'https://my-json-server.typicode.com/vincent-cholet/ngx-easy-table-plus/company?_limit=25&_page=1',
         {
           statusCode: 200,
           body: [

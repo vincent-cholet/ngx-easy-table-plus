@@ -4,6 +4,12 @@
 [![last commit](https://badgen.net/github/last-commit/vincent-cholet/ngx-easy-table-plus)](https://badgen.net/github/last-commit/vincent-cholet/ngx-easy-table-plus)
 [![total downloads](https://badgen.net/npm/dt/ngx-easy-table-plus)](https://badgen.net/npm/dt/ngx-easy-table-plus)
 
+## Demo
+
+<a href="https://vincent-cholet.github.io/ngx-easy-table-plus/" target="_blank">
+https://vincent-cholet.github.io/ngx-easy-table-plus/
+</a>
+
 ## Code Examples
 
 <a href="https://github.com/vincent-cholet/ngx-easy-table-plus/tree/master/src/app/demo" target="_blank">
@@ -24,9 +30,9 @@ npm install @angular/cdk --save
 
 ## Available config settings
 
-The original hosted documentation site is no longer available. Every available
-configuration option and feature has a runnable example in the demo app source:
-[src/app/demo](src/app/demo).
+Every available configuration option and feature has a runnable example in the
+[demo](https://vincent-cholet.github.io/ngx-easy-table-plus/), with the source for each
+example in [src/app/demo](src/app/demo).
 
 ## Development
 
